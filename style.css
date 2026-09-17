@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFEACC;
+    ;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 8%;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.logo1 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.headeropt {
+    display: flex;
+    width: 100%;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 125px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.imgoptions {
+    height: 18px;
+}
+
+main {
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+}
+
+.meio {
+    padding: 90px;
+    display: flex;
+    flex-grow: 2;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sloganp {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 400%;
+    width: 750px;
+    font-weight: bold;
+}
+
+.pizza {
+    display: flex;
+    flex-grow: 2;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pizzaimg {
+    height: 100%;
+}
+
+footer {
+    height: 20%;
+    flex-grow: 1;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.imgpizzas {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 8px;
+    margin: 8px;
+    justify-content: space-between;
+}
+
+.pizzinha {
+    height: 100%;
+    width: 22%;
+}
+
+@media (max-width:768px) {
+    body {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    header {
+        gap: 24px;
+
+    }
+
+    .imgoptions {
+        height: 20px;
+    }
+
+    .headeropt {
+        gap: 15px;
+        font-size: 16px;
+        width: 100%;
+        flex-wrap: wrap;
+        text-align: end;
+        margin-right: 0;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .meio {
+        padding: 18px;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: center;
+    }
+
+    .sloganp {
+        font-size: 26px;
+
+    }
+
+    .pizza {
+        padding: 5px;
+    }
+
+    .pizzaimg {
+        height: 95%;
+    }
+
+    footer {
+        gap: 10px;
+
+    }
+
+    .imgpizzas {
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+
+    .pizzinha {
+        height: 50%;
+        width: 50%;
+    }
+}
